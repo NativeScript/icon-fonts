@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <ListView items="{{ glyphs }}">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal">
+                <Label text="{{ icon }}" class="icon"/>
+                <Label text="{{ code }}" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>
